@@ -1,0 +1,21 @@
+@media (max-width:767.98px){
+    .page *{
+        width:auto;
+        min-width:unset!important;
+    }
+    .height-control{
+        height:unset!important
+    }
+    .main-selections {
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .br-parent{
+        min-width:auto;
+    }
+        .br-parent img {
+            margin: 90px auto 30px auto;
+            min-width: 100px;
+        }
+}

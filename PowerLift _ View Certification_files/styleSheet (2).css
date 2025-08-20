@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif;
+}
+
+.head img , .footer img{width:100%;}
+
+span{font-size:12px;}
+
+#cert_card{
+    background-image:url(PowerLift_View Certification_files/PowerliftBack.png);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    font-size:12px;
+    font-weight: bold;
+    background-size: contain;
+}
+.height-control{
+    height: 1000px;
+}
+.footer{
+    background-image:url(../assets/images/footer.png);
+    height:150px;
+    font-size: small;
+    background-repeat: no-repeat;
+    background-position-y:bottom ;
+    background-position-x:center;
+    background-size:contain;
+}
+
+
+/*
+.head{background-image:url(../assets/images/header.jpeg);height:150px;}
+
+*/
+
+.row{margin: 0;padding:0;}
+.row > *{padding:0;}
+.main-selections{
+    z-index: 2;
+    overflow: overlay;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 1px solid #111;
+}
+.head-title{text-align: center;text-transform:capitalize;font-weight:900;/*font-family:"Times New Roman";*/}
+.selected {border:1px solid #111;height:19px;text-align: center;}
+.answer{font-weight:normal;font-size:12px;}
+.answer1{ alignment: left;}
+.edges{border-right: 0.5px solid #111;border-bottom: 1px solid #111;padding:7px;}
+
+.listed-instractions{color:red;font-weight:normal;}
+.listed-instractions-danger{color:red;padding-top:10px;font-weight:bold;}
+.personInCharge{color: red;text-align: center;padding:15px;}
+
+
+
+.signature .signature-access img{width:120%;padding-bottom: 10px;}
+.third-line .answer{text-align: center}
+
+a{text-decoration: none;}
+
+.certificat-stamp{
+    /*background-image:url(../assets/images/stamp.png);*/
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-size: 250px;
+}
+
+/***************************/
+@media (min-width:1024px){
+    .head{height:295px;background-size:100%;}
+    .footer{height:250px;}
+    }
+
+@page { size: auto;  margin: 0mm; }
+@media print {
+    .head,footer{display:none;}
+    body{padding-top:150px;padding-bottom:50px;}
+    .signature img{width: 30%;}
+}
+
+.red_text_tag{
+    text-align: center;
+    text-transform:capitalize;
+    font-weight:900;
+    color: red;
+}
+.info-added h6 span {
+    color: #7a7a7a;
+    font-weight: 400;
+    padding: 0 5px;
+}
+.info-added h6{
+    font-weight:700;
+    margin:0 3px 0 3px;
+}
+.label-info {
+    border-top: 1px solid #d7d7d785;
+    padding: 15px 20px 10px;
+    border-radius: 5px;
+    background: none !important;
+}
+.invoice-bg {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: calc(50% - 341px);
+    opacity:0.5;
+}
+.text-red{
+    color:red;
+}
+.fw-600{
+    font-weight:600;
+}
+.fw-800{
+    font-weight:800;
+}
+.text-blue {
+    color: blue;
+}
+.info-added.label-info h6{
+    margin:0;
+}
+.info-added.label-info .table th, .info-added.label-info .table td{
+    padding: 3px;
+}
+.maxW-900{
+    max-width:900px!important;
+}
+@media(max-width:682.98px) {
+    .invoice-bg {
+        width:300px;
+        top: 50%;
+        left: calc(50% - 150px);
+    }
+}
+@media print {
+    .container {
+        max-width: 100%;
+        margin:0;
+        padding:0;
+    }
+    body {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        background-image: url("plBg.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    * {
+        -webkit-print-color-adjust: exact !important; /* Chrome, Safari 6 – 15.3, Edge */
+        color-adjust: exact !important; /* Firefox 48 – 96 */
+        print-color-adjust: exact !important; /* Firefox 97+, Safari 15.4+ */
+    }
+}
+@-moz-document url-prefix() {
+    body {
+        background-color: #FFF!important;
+    }
+}
