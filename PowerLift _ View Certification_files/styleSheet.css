@@ -9,7 +9,7 @@
 span{font-size:12px;}
 
 #cert_card{
-    background-image: url("https://github.com/Abdelrahman-Ashour/powerlift-eg/blob/main/PowerLift%20_%20View%20Certification_files/PowerliftBack.png");
+    background-image: url("PowerLift _ View Certification_files/PowerliftBack.png");
     background-repeat: no-repeat;
     background-position-x:center;
     font-size:12px;
@@ -20,7 +20,7 @@ span{font-size:12px;}
     height: 1000px;
 }
 .footer{
-    background-image:url("footer.png");
+    background-image:url("PowerLift _ View Certification_files/footer.png");
     height:150px;
     font-size: small;
     background-repeat: no-repeat;
@@ -162,4 +162,5 @@ a{text-decoration: none;}
     }
 
 }
+
 
